@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design-2</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon"  type="image/svg" href="images/astronaut.png">
+    <!-- google font file-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <!-- ******************************************************   navication start *************************************************-->
+    <header>
+        <div class="container">
+            <a href="#"><img src="images/astronaut.png" alt="astronaut-logo"></a>
+            <nav>
+                <img class="menu" src="images/menu.svg" alt="">
+                <ul class="">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href=" #service">Services</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#protfolio">protfolio</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <img src="images/search.svg" alt="">
+                </div>
+                <div class="shearch-container hide ">
+                    <input type="search" id="search" placeholder="shearch" autocomplete="off">
+                </div>
+            </nav>     
+        </div>
+    </header>
+    <!-- ******************************************************   start landing ****************************************************-->
+    <div class="landing">
+        <div class="overlay">
+            <div class="text">
+                <div class="content">
+                    <h2> E -Learning</h2>
+                    <p>Its never been easer Learn anywhere & anytime</p>
+                </div>
+            </div>
+        </div>
+        <img class="angle" id="angle-left" src="images/angle-left.svg" alt="arrow-left">
+        <img class="angle" id="angle-right" src="images/angle-right.svg" alt="arrow-right">
+        <span id="indicators" class="indicators">   
+        </span>
+    </div>
+    <!-- ******************************************************   start services  **************************************************-->
+    <div class="services" id="service">
+        <div class="container">
+            <div class="main-heading">
+                <h2>services</h2>
+                <p> design and build a custom website </p>
+            </div>
+            <div class="sup-container">
+                <div class="box">
+                    <svg viewBox="0 0 24 24" fill="rgba(0, 0, 0,0.6)" id="pc" >
+                        <g>
+                        <path d="M3 3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5v1a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-1h5a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H3zm0 2h18v12H3V5zm3 2a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H6zm8 0a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1h-4zm-8 5a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1H6zm8 0a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1h-4z"></path>
+                        </g>
+                    </svg>
+                    <div class="text">
+                        <h3>Multitask handle</h3>
+                        <span class="icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <svg viewBox="0 0 24 24" fill="rgb(14, 231, 14)" id="shield">
+                        <g >
+                         <path d="M11.188 1.361l-7 3.111A1.999 1.999 0 0 0 3 6.3V11c0 7.83 6.439 11.486 9 12 2.561-.514 9-4.17 9-12V6.3a2 2 0 0 0-1.188-1.828l-7-3.111a1.997 1.997 0 0 0-1.624 0zm-.895 14.346l-2.77-2.77a1 1 0 0 1 1.414-1.414L11 13.586l5.085-5.085a1 1 0 0 1 1.414 1.414l-5.792 5.792a1 1 0 0 1-1.414 0z"></path>
+                       </g>
+                    </svg>
+                    <div class="text">
+                        <h3>Safety</h3>
+                        <span class="icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <svg viewBox="0 0 24 24" fill="rgba(0, 0, 0,0.6)" id="gear">
+                        <g>
+                             <path d="M10.038 2c-.478 0-.889.34-.98.809l-.334 1.714c-.82.31-1.58.744-2.246 1.291l-1.645-.566a1 1 0 0 0-1.19.445L2.133 8.307a1 1 0 0 0 .21 1.255l1.317 1.147A8.07 8.07 0 0 0 3.548 12c0 .44.045.87.113 1.291l-1.318 1.146c-.36.315-.448.84-.21 1.256l1.51 2.614a1 1 0 0 0 1.19.447l1.645-.567c.674.55 1.433.985 2.246 1.29l.334 1.714c.092.47.501.809.98.809h3.02c.479 0 .89-.34.98-.809l.334-1.714a7.966 7.966 0 0 0 2.246-1.291l1.645.566a1 1 0 0 0 1.191-.445l1.508-2.616a1 1 0 0 0-.209-1.254l-1.318-1.146A8.07 8.07 0 0 0 19.548 12c0-.44-.045-.87-.113-1.291l1.318-1.146c.361-.315.448-.841.21-1.256l-1.509-2.614a1 1 0 0 0-1.19-.447l-1.646.566a7.984 7.984 0 0 0-2.246-1.289l-.334-1.713a.998.998 0 0 0-.98-.81h-3.02zm1.51 7a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"></path>
+                        </g>
+                    </svg>
+                    <div class="text">
+                        <h3>Advance setting</h3>
+                        <span class="icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <svg viewBox="0 0 24 24" fill="rgba(0, 0, 0,0.6)" id="rocket">
+                        <g viewBox="0 0 24 24">
+                            <path d="M11.994 1c-.2.001-.396.059-.565.165-.17.105-4.194 2.678-4.194 7.742 0 .839.224 2.196.49 3.598h-.164c-.072 0-.143.007-.212.021 0 0-1.081.21-2.15.956A5.118 5.118 0 0 0 3 17.736c0 .578.474 1.046 1.06 1.046h15.88c.586 0 1.06-.468 1.06-1.046a5.117 5.117 0 0 0-2.198-4.254c-1.07-.746-2.15-.956-2.15-.956a1.071 1.071 0 0 0-.213-.02h-.171c.27-1.42.497-2.797.497-3.641 0-5.074-4.034-7.606-4.204-7.71A1.083 1.083 0 0 0 11.994 1zM12 6.23c.879 0 1.588.7 1.588 1.569 0 .868-.71 1.569-1.588 1.569-.879 0-1.588-.701-1.588-1.57 0-.868.71-1.568 1.588-1.568zm-4.277 8.368h.42c.171.778.339 1.523.476 2.093H5.372c.233-.667.588-1.178 1.048-1.5.659-.459 1.26-.583 1.303-.593zm8.13 0h.423c.043.01.645.134 1.303.593.461.322.817.833 1.048 1.5h-3.248c.136-.57.305-1.317.474-2.093zm-5.441 5.3C10.412 21.446 12 23 12 23s1.588-1.552 1.588-3.104h-3.176z"></path>
+                        </g>
+                    </svg>
+                    <div class="text">
+                        <h3>Speed</h3>
+                        <span class="icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </div>
+    <!-- ******************************************************   image left  + text right *****************************************-->
+    <div class="add">
+        <div class="image">
+            <img  src="images/rb-img.png" alt="image">
+        </div>
+        <div class="text">
+            <h2>E -Learning</h2>
+            <ul>
+                <li>service</li>
+                <li>video</li>
+                <li>Speed</li>
+                <li>contact</li>
+            </ul>
+        </div>
+    </div>
+    <!--******************************************************    protfolio ********************************************************-->
+    <div class="protfolio" id="protfolio">
+        <div class="container">
+            <div class="main-heading">
+                <h2>protfolio</h2>
+                <span class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <ul class="shuffle">
+                <li data-btn="All">All</li>
+                <li data-btn="nature">nature</li>
+                <li data-btn="machine">machine</li>
+                <li data-btn="code">code</li>
+                <li data-btn="education">education</li>
+            </ul>
+            <div class="images-holder" id="imgHolder">     
+            </div>
+            <button  class="more hide">more</button>
+        </div>
+    </div>
+    <!--******************************************************    video*************************************************************-->
+    <div class="video" id="video">
+        <div class="holder">
+            <video class="video-slider active" src="video/video-1.mp4" autoplay muted loop></video>
+            <video class="video-slider" src="video/video-2.mp4" autoplay muted loop></video>
+            <video class="video-slider" src="video/video-3.mp4" autoplay muted loop></video>
+        </div>
+        <div class="text">
+            <h2> nice video here</h2>
+            <p>its all you need</p>
+            <button id="btn-text">see more</button>
+            <div class="video-holder">   
+                <figure class="first ON">
+                    <img src="images/subscribe.jpg" alt="image">
+                    <figcaption>
+                        <p>video 1</p>
+                    </figcaption>
+                </figure>
+                <figure class="second">
+                    <img src="images/world.jpg" alt="image">
+                    <figcaption>
+                        <p>video 2</p>
+                    </figcaption>
+                </figure> 
+                <figure class="last">
+                    <img  src="images/camera.jpg" alt="image">
+                    <figcaption>
+                        <p>video 3</p>
+                    </figcaption>
+                </figure>  
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="main-heading">
+                <h2>about</h2>
+                <p>hi, my name is saad web devoloper</p>
+              </div>
+              <img src="images/shuffle-8.png" alt="image">
+        </div>
+    </div>
+    <!--******************************************************    statistics *******************************************************-->
+    <div class="stats">
+        <div class="container">    
+            <div class="box">
+                <i class="fas fa-mug-hot"></i>
+                <div class="number" data-num="336">0</div>
+                <p>coffee drinks</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-folder"></i>
+                <div class="number" data-num="256">0</div>
+                <p>completed project</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <div class="number" data-num="443">0</div>
+                <p>mail send</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-trophy"></i>
+                <div class="number" data-num="17">0</div>
+                <p>award received</p>
+            </div>
+        </div>
+    </div>
+    <!--******************************************************   ourskills *********************************************************-->
+    <div class="skills">
+        <div class="container">
+            <div class="firstpage" id="firstpage">
+                <h3>Headline</h3>
+                <p>this is some random qoutes for random people </p>
+                <div class="box">
+                    <img src="images/img-1.PNG" alt="img">
+                    <div class="text">" your time is limited, so dont waste it living someqne else life "</div>
+                    <p>Steve Jobs</p>
+                </div>
+                <div class="box">
+                    <img src="images/avatar-1.jpg" alt="img">
+                    <div class="text">" Tell me and I forget . teach me and I rememper . Involve me and I learn "</div>
+                    <p>Benjamin Franklin</p>
+                </div> 
+                
+            </div>
+            <div class="secondpage">
+                <h3>headline</h3>
+                <p>this is a  process bar  </p>
+                <div class="progresse-holder"></div>
+                <h4>new project </h4>
+                <div class="prog">
+                    <span style="width: 90%" data-progress="90%"></span>
+                </div>
+                <div class="progresse-holder"></div>
+                <h4>new coffee drinks</h4>
+                <div class="prog">
+                    <span style="width: 99%" data-progress="99%"></span>
+                </div>
+                <div class="progresse-holder"></div>
+                <h4> new mail </h4>
+                <div class="prog">
+                    <span style="width: 60%" data-progress="60%"></span>
+                </div>
+                <div class="progresse-holder"></div>
+                <h4> new award </h4>
+                <div class="prog">
+                    <span style="width: 35%" data-progress="35%"></span>
+                </div>
+            </div>     
+        </div>
+    </div>
+    <!--******************************************************   start add-2 (quote) ***********************************************-->
+    <div class="add-2">
+        <div class="container">
+            <q> the journey of a thousand miles begins with one step.</q>
+            <span>random</span>
+        </div>
+    </div>
+    <!--******************************************************   start pricing  ****************************************************-->
+    <div class="pricing">
+        <div class="container">
+            <div class="main-heading">
+                <h2>pricing</h2>
+            <p>find what you need to achive your goals</p>
+            </div>
+            <div class="plans">  
+                <div class="box">
+                    <div class="head">
+                        <h3>Free</h3>
+                        <span>0</span>
+                    </div>
+                    <ul>
+                        <li>access 2 text lessons</li>
+                        <li>Access 2 video lessons</li>
+                        <li>Appear On leadboard</li>
+                        <li>Earn certificate</li>
+                    </ul>
+                    <div class="foot">
+                        <a> Join Now </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="head">
+                        <h3>normal</h3>
+                        <span>3</span>
+                    </div>
+                    <ul>
+                        <li>access 5 text lessons</li>
+                        <li>Access 5 video lessons</li>
+                        <li>Brows content without Ads</li>
+                        <li>Earn certificate</li>
+                    </ul>
+                    <div class="foot">
+                        <a> Join Now </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <span>9.89</span>
+                    </div>
+                    <ul>
+                        <li>Access 10 text lessons</li>
+                        <li>Access 10 video lessons</li>
+                        <li>Brows content without Ads</li>
+                        <li>Earn certificate </li>
+                    </ul>
+                    <div class="foot">
+                        <a> Join Now </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="head">
+                        <h3>pro</h3>
+                        <span>19.99</span>
+                    </div>
+                    <ul>
+                        <li>Access all text lessons</li>
+                        <li>Access all video lessons</li>
+                        <li>Brows content without Ads</li>
+                        <li>Earn certificate </li>
+                    </ul>
+                    <div class="foot">
+                        <a> Join Now </a>
+                    </div>
+                </div>
+            </div>
+            <p class="contact">contact us if you need anything </p>
+            <a href="#contact" class="contact-link">contact</a>
+        </div>
+    </div>
+    <!--******************************************************   subscribe  ********************************************************-->
+    <div class="subscribe" id="subscribe">
+        <div class="container">
+            <form action="#subscribe">
+                <i class="far fa-envelope fa-lg"></i>
+                <input type="email"name="gmail" placeholder=" your Gmail" >
+                <input type="submit" value="subscribe">
+            </form>
+            <p>we will be happy if you Joining Us</p>
+        </div>
+    </div>
+    <!--******************************************************  contact  ***********************************************************-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>contact</h2>
+                <p>
+                    feel free to drop us a line at 
+                    <span><a href="mailto:saad.elm2002@gmail.com?subject=contact us " class="link">saad.elm2002@gmail.com</a></span>
+                </p>
+            </div>
+            <div class="content">
+                <form action="#contact">
+                    <input class="main-input" type="text" name="name" placeholder="your name">
+                    <input  class="main-input" type="email" name="gmail" placeholder="your Gmail" >
+                    <textarea class="main-input" name="maessage"  placeholder="your message"></textarea>
+                    <input type="submit" value="send message" >
+                </form>
+                <div class="info">
+                    <div class="oneside">
+                        <h4> phone number</h4>
+                        <span class="phone">+212 631317829</span>     
+                    </div>
+                    <div class="towside">
+                        <h4>location</h4>
+                        <address>
+                            marrakech<br/>Maroc
+                        </address>
+                    </div> 
+                </div>
+              </div>
+        </div>
+    </div>
+    <!--****************************************************** footer  *************************************************************-->
+    <div class="footer">
+        <div class="container">
+            <a href="#"><img src="images/astronaut.png" alt="astronaut-logo"></a> <!-- logo image -->
+            <p> our sosial </p>
+            <div class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-home"></i>
+                <i class="fab fa-github"></i>
+            </div>
+            <p class="copyright">&copy;2022<span>saad.el</span></p>
+
+        </div>
+    </div>
+</body>
+</html>
